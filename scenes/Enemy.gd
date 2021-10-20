@@ -42,4 +42,5 @@ func on_goal_entered(_area2d):
 
 func on_hitbox_entered(_area2d):
 	$"/root/Helpers".apply_camera_shake(1)
+
 	call_deferred("kill")

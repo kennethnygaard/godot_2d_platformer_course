@@ -48,3 +48,5 @@ format = 1
 [node name="PlayerRoot" type="Node2D" parent="."]
 
 [node name="Player" parent="PlayerRoot" instance=ExtResource( 3 )]
+
+[node name="TutorialSigns" type="Node" parent="."]
